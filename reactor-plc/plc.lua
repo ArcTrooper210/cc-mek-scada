@@ -134,7 +134,7 @@ function plc.rps_init(reactor, plc_state)
 
     local self = {
         -- check states
-        state = { false, false, false, false, false, false, false, false, false, false, false },
+        states = { false, false, false, false, false, false, false, false, false, false, false },
         reactor_active = false,
         emer_cool_active = nil, ---@type boolean
         formed = ini_is_formed, ---@type boolean|nil
